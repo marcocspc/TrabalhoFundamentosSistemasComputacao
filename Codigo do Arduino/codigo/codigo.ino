@@ -30,7 +30,7 @@ unsigned short int sensorExterno = 7;
 
 void setup() {
   //inicializar serial
-  init_serial();
+  Serial.begin(9600);
 
   //inicializar portas dos sensores
   pinMode(sensorInterno, INPUT);

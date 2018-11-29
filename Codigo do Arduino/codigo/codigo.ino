@@ -11,7 +11,7 @@ unsigned short int numPessoas = 0;
 struct Deteccao {
   boolean detected;
   int timeOfLastDetection;
-}
+};
 
 //um struct para deteccao externa e outro para interna
 Deteccao deteccao_interna = {false, 0};
